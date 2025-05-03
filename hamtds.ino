@@ -1,4 +1,4 @@
-#define TdsSensorPin A0            // Chân ADC của ESP32 (thay A0 bằng 34 hoặc chân ADC phù hợp)
+#define TdsSensorPin A0            
 #define VREF 3.3                  // Điện áp tham chiếu analog (Volt) của ADC
 #define SCOUNT 30                 // Số lượng điểm lấy mẫu
 #define READ_INTERVAL 40          // Thời gian giữa các lần đọc mẫu (ms)
